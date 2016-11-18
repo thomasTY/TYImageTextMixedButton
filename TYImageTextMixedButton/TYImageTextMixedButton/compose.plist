@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>className</key>
+		<string>TYImageTextMixedButton.ModelViewController</string>
+		<key>icon</key>
+		<string>camerabutton</string>
+		<key>title</key>
+		<string>拍照1</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>picturebutton</string>
+		<key>className</key>
+		<string>TYImageTextMixedButton.ModelViewController</string>
+		<key>title</key>
+		<string>相册1</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>camerabutton</string>
+		<key>className</key>
+		<string>TYImageTextMixedButton.ModelViewController</string>
+		<key>title</key>
+		<string>拍照2</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>picturebutton</string>
+		<key>className</key>
+		<string>TYImageTextMixedButton.ModelViewController</string>
+		<key>title</key>
+		<string>相册2</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>camerabutton</string>
+		<key>className</key>
+		<string>TYImageTextMixedButton.ModelViewController</string>
+		<key>title</key>
+		<string>拍照3</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>picturebutton</string>
+		<key>className</key>
+		<string>TYImageTextMixedButton.ModelViewController</string>
+		<key>title</key>
+		<string>相册3</string>
+	</dict>
+</array>
+</plist>

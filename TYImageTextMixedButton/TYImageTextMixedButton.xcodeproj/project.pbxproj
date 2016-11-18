@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED21FB281DDEC169004CE36C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21FB271DDEC169004CE36C /* Menu.swift */; };
+		ED21FB2A1DDEF79D004CE36C /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED21FB291DDEF79D004CE36C /* ModelViewController.swift */; };
+		EDEE02F61DDC9D54008D2626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE02F51DDC9D54008D2626 /* AppDelegate.swift */; };
+		EDEE02F81DDC9D54008D2626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE02F71DDC9D54008D2626 /* ViewController.swift */; };
+		EDEE02FD1DDC9D54008D2626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEE02FC1DDC9D54008D2626 /* Assets.xcassets */; };
+		EDEE03001DDC9D54008D2626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEE02FE1DDC9D54008D2626 /* LaunchScreen.storyboard */; };
+		EDEE030B1DDC9E3C008D2626 /* compose.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDEE03071DDC9E3C008D2626 /* compose.plist */; };
+		EDEE030C1DDC9E3C008D2626 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE03081DDC9E3C008D2626 /* MenuButton.swift */; };
+		EDEE030D1DDC9E3C008D2626 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE03091DDC9E3C008D2626 /* MenuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED21FB271DDEC169004CE36C /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		ED21FB291DDEF79D004CE36C /* ModelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
+		EDEE02F21DDC9D54008D2626 /* TYImageTextMixedButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYImageTextMixedButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEE02F51DDC9D54008D2626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDEE02F71DDC9D54008D2626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDEE02FC1DDC9D54008D2626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDEE02FF1DDC9D54008D2626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDEE03011DDC9D54008D2626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEE03071DDC9E3C008D2626 /* compose.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = compose.plist; sourceTree = "<group>"; };
+		EDEE03081DDC9E3C008D2626 /* MenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		EDEE03091DDC9E3C008D2626 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDEE02EF1DDC9D54008D2626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDEE02E91DDC9D54008D2626 = {
+			isa = PBXGroup;
+			children = (
+				EDEE02F41DDC9D54008D2626 /* TYImageTextMixedButton */,
+				EDEE02F31DDC9D54008D2626 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDEE02F31DDC9D54008D2626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE02F21DDC9D54008D2626 /* TYImageTextMixedButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDEE02F41DDC9D54008D2626 /* TYImageTextMixedButton */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE02F51DDC9D54008D2626 /* AppDelegate.swift */,
+				EDEE02F71DDC9D54008D2626 /* ViewController.swift */,
+				EDEE03071DDC9E3C008D2626 /* compose.plist */,
+				EDEE03081DDC9E3C008D2626 /* MenuButton.swift */,
+				EDEE03091DDC9E3C008D2626 /* MenuView.swift */,
+				ED21FB271DDEC169004CE36C /* Menu.swift */,
+				ED21FB291DDEF79D004CE36C /* ModelViewController.swift */,
+				EDEE02FC1DDC9D54008D2626 /* Assets.xcassets */,
+				EDEE02FE1DDC9D54008D2626 /* LaunchScreen.storyboard */,
+				EDEE03011DDC9D54008D2626 /* Info.plist */,
+			);
+			path = TYImageTextMixedButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDEE02F11DDC9D54008D2626 /* TYImageTextMixedButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEE03041DDC9D54008D2626 /* Build configuration list for PBXNativeTarget "TYImageTextMixedButton" */;
+			buildPhases = (
+				EDEE02EE1DDC9D54008D2626 /* Sources */,
+				EDEE02EF1DDC9D54008D2626 /* Frameworks */,
+				EDEE02F01DDC9D54008D2626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYImageTextMixedButton;
+			productName = TYImageTextMixedButton;
+			productReference = EDEE02F21DDC9D54008D2626 /* TYImageTextMixedButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDEE02EA1DDC9D54008D2626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = thomasTY;
+				TargetAttributes = {
+					EDEE02F11DDC9D54008D2626 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDEE02ED1DDC9D54008D2626 /* Build configuration list for PBXProject "TYImageTextMixedButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDEE02E91DDC9D54008D2626;
+			productRefGroup = EDEE02F31DDC9D54008D2626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDEE02F11DDC9D54008D2626 /* TYImageTextMixedButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDEE02F01DDC9D54008D2626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEE03001DDC9D54008D2626 /* LaunchScreen.storyboard in Resources */,
+				EDEE030B1DDC9E3C008D2626 /* compose.plist in Resources */,
+				EDEE02FD1DDC9D54008D2626 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDEE02EE1DDC9D54008D2626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEE02F81DDC9D54008D2626 /* ViewController.swift in Sources */,
+				ED21FB281DDEC169004CE36C /* Menu.swift in Sources */,
+				ED21FB2A1DDEF79D004CE36C /* ModelViewController.swift in Sources */,
+				EDEE030D1DDC9E3C008D2626 /* MenuView.swift in Sources */,
+				EDEE030C1DDC9E3C008D2626 /* MenuButton.swift in Sources */,
+				EDEE02F61DDC9D54008D2626 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDEE02FE1DDC9D54008D2626 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEE02FF1DDC9D54008D2626 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDEE03021DDC9D54008D2626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDEE03031DDC9D54008D2626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDEE03051DDC9D54008D2626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYImageTextMixedButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.thomasTY.TYImageTextMixedButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EDEE03061DDC9D54008D2626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYImageTextMixedButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.thomasTY.TYImageTextMixedButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDEE02ED1DDC9D54008D2626 /* Build configuration list for PBXProject "TYImageTextMixedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEE03021DDC9D54008D2626 /* Debug */,
+				EDEE03031DDC9D54008D2626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEE03041DDC9D54008D2626 /* Build configuration list for PBXNativeTarget "TYImageTextMixedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEE03051DDC9D54008D2626 /* Debug */,
+				EDEE03061DDC9D54008D2626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDEE02EA1DDC9D54008D2626 /* Project object */;
+}
