@@ -82,7 +82,7 @@ class MenuView: UIView
     //MARK: - 加载plist文件，数据转模型
     fileprivate func loadComposeData()-> [ComposeMenu]
     {
-        let path = Bundle.main.path(forResource: "compose.plist", ofType: nil)!
+        let path = Bundle.main.path(forResource: "buttons.plist", ofType: nil)!
         let dictArray = NSArray(contentsOfFile: path) as! [[String:Any]]
         var modelArray = [ComposeMenu]();
         for dict in dictArray

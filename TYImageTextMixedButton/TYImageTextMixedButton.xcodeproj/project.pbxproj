@@ -13,7 +13,7 @@
 		EDEE02F81DDC9D54008D2626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE02F71DDC9D54008D2626 /* ViewController.swift */; };
 		EDEE02FD1DDC9D54008D2626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEE02FC1DDC9D54008D2626 /* Assets.xcassets */; };
 		EDEE03001DDC9D54008D2626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEE02FE1DDC9D54008D2626 /* LaunchScreen.storyboard */; };
-		EDEE030B1DDC9E3C008D2626 /* compose.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDEE03071DDC9E3C008D2626 /* compose.plist */; };
+		EDEE030B1DDC9E3C008D2626 /* buttons.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDEE03071DDC9E3C008D2626 /* buttons.plist */; };
 		EDEE030C1DDC9E3C008D2626 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE03081DDC9E3C008D2626 /* MenuButton.swift */; };
 		EDEE030D1DDC9E3C008D2626 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE03091DDC9E3C008D2626 /* MenuView.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +27,7 @@
 		EDEE02FC1DDC9D54008D2626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDEE02FF1DDC9D54008D2626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDEE03011DDC9D54008D2626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDEE03071DDC9E3C008D2626 /* compose.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = compose.plist; sourceTree = "<group>"; };
+		EDEE03071DDC9E3C008D2626 /* buttons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = buttons.plist; sourceTree = "<group>"; };
 		EDEE03081DDC9E3C008D2626 /* MenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
 		EDEE03091DDC9E3C008D2626 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,7 +64,7 @@
 			children = (
 				EDEE02F51DDC9D54008D2626 /* AppDelegate.swift */,
 				EDEE02F71DDC9D54008D2626 /* ViewController.swift */,
-				EDEE03071DDC9E3C008D2626 /* compose.plist */,
+				EDEE03071DDC9E3C008D2626 /* buttons.plist */,
 				EDEE03081DDC9E3C008D2626 /* MenuButton.swift */,
 				EDEE03091DDC9E3C008D2626 /* MenuView.swift */,
 				ED21FB271DDEC169004CE36C /* Menu.swift */,
@@ -136,7 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDEE03001DDC9D54008D2626 /* LaunchScreen.storyboard in Resources */,
-				EDEE030B1DDC9E3C008D2626 /* compose.plist in Resources */,
+				EDEE030B1DDC9E3C008D2626 /* buttons.plist in Resources */,
 				EDEE02FD1DDC9D54008D2626 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
